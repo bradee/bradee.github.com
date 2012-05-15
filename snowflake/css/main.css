@@ -1011,7 +1011,7 @@ html {
 	opacity: 0;
 }
 
-.tim-berners-lee .state-background {
+.full-screen .state-background {
 	background: url(../assets/tim-berners-lee.jpg) #000 center center no-repeat;
 	background-size: cover;
 	opacity: 1;
@@ -1019,13 +1019,13 @@ html {
 
 
 .home-page .state-background {
-	background: url(../assets/images/snowflaketry_02.png) #fff center center no-repeat;
+	background: url(../assets/images/snowylandscape.jpg) #fff center center no-repeat;
 	background-position: 0%, 0%;
 	-webkit-animation-name: pan-around;
-	-webkit-animation-duration: 60s;
+	-webkit-animation-duration: 160s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
-/*	background-size: cover; */
+	/*background-size: cover;*/
 	opacity: 1;
 }
 
@@ -1051,6 +1051,12 @@ html {
 
 .starbust-page .state-background {
 	background:  url(../assets/starburst.png) center center no-repeat;
+	background-size: cover;
+	opacity: .5;
+}
+
+.snow-page .state-background {
+	background:  url(../assets/snowylandscape.jpg) center center no-repeat;
 	background-size: cover;
 	opacity: .5;
 }
@@ -1111,7 +1117,7 @@ html {
 #reveal .home h4 {
 	font-family: "bello-pro";
 	letter-spacing:-.02em;
-	color: #000;
+	color: #fff;
 	text-shadow: 0 0 12px #000;
 }
 
