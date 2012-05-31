@@ -289,7 +289,7 @@ a:focus {
 
 #title .try {
     font-size: 60px;
-    position: absolute;
+//    position: absolute;
     
     -webkit-transform: translateZ(20px);
     -moz-transform:    translateZ(20px);
@@ -300,7 +300,7 @@ a:focus {
 
 #title h1 {
     font-size: 250px;
-    position: absolute;
+//    position: absolute;
     -webkit-transform: translateZ(50px);
     -moz-transform:    translateZ(50px);
     -ms-transform:     translateZ(50px);
