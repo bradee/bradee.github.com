@@ -288,8 +288,10 @@ a:focus {
 }
 
 #title .try {
-    font-size: 60px;
-//    position: absolute;
+    font-size: 40px;
+	display:block;
+	margin-bottom: -100px;
+//  position: absolute;
     
     -webkit-transform: translateZ(20px);
     -moz-transform:    translateZ(20px);
