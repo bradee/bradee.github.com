@@ -639,7 +639,7 @@ a:focus {
 /*
     Now we 'enable' the hint when presentation is initialized ...
 */
-.impress-enabled .hint { display: block }
+.impress-enabled .hint { display: none;	 }
 
 /*
     ... and we will show it when the first step (with id 'bored') is active.
