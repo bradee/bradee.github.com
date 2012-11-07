@@ -74,7 +74,7 @@ body {
     background:     -ms-radial-gradient(rgb(173, 124, 80), rgb(134,96,60));
     background:      -o-radial-gradient(rgb(173, 124, 80), rgb(134,96,60));
     background:         radial-gradient(rgb(173, 124, 80), rgb(134,96,60));    
-	background:#AD7C50;
+	/*background: #AD7C50;*/
 
 }
 
@@ -344,6 +344,15 @@ a:focus {
 	display:none;
 }
 
+p.tiny{
+	font-size:30%;
+	font-style:italic;
+	margin-top:100px;
+}
+
+#title p.tiny {
+		margin-top:0;
+}
 /*
     This step has some animated text ...
 */
